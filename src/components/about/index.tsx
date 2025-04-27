@@ -384,13 +384,13 @@ const AboutDetails = () => {
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
-            href="https://pyschecare.netlify.app/"
+            href="https://psychecare.netlify.app/"
             target="_blank"
             className="w-full"
           >
             <img
               className="w-full h-auto"
-              src="https://github-readme-stats.vercel.app/api/pin/?username=Niteshagarwal01&repo=PsycheCare&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
+              src="https://github-readme-stats.vercel.app/api/pin/?username=officialniteshagarwal&repo=PsycheCare&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
               alt="PsycheCare Project"
               loading="lazy"
             />
