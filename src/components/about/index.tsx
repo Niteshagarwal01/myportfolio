@@ -353,7 +353,7 @@ const AboutDetails = () => {
             </div>
           </Link>
         </ItemLayout>
-
+        
         <ItemLayout className={"col-span-full text-accent mt-6"}>
           <div className="text-center">
             <p className="font-medium text-sm md:text-base">
@@ -362,9 +362,7 @@ const AboutDetails = () => {
           </div>
         </ItemLayout>
 
-        <ItemLayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
-        >
+        <ItemLayout className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}>
           <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api/top-langs?username=Niteshagarwal01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
@@ -381,19 +379,67 @@ const AboutDetails = () => {
             loading="lazy"
           />
         </ItemLayout>
+        
 
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+       
+        
+
+        <ItemLayout className={"col-span-full lg:col-span-6 !p-0"}>
+          <div className="grid grid-cols-3 gap-4">
+            <div className="col-span-1 flex flex-col justify-center items-center text-center">
+              <p className="text-4xl font-bold">58</p>
+              <p className="text-sm">Total Contributions</p>
+              <p className="text-xs mt-1">Aug 27, 2024 - Present</p>
+            </div>
+            
+            <div className="col-span-1 flex flex-col justify-center items-center text-center">
+              <div className="relative">
+                <div className="rounded-full h-24 w-24 border-4 border-[#FEFE5B] flex items-center justify-center">
+                  <span className="text-4xl font-bold">1</span>
+                </div>
+                <div className="absolute top-0 right-0 h-6 w-6 bg-orange-500 rounded-full"></div>
+              </div>
+              <p className="text-sm mt-2">Current Streak</p>
+              <p className="text-xs mt-1">Apr 27</p>
+            </div>
+            
+            <div className="col-span-1 flex flex-col justify-center items-center text-center">
+              <p className="text-4xl font-bold">2</p>
+              <p className="text-sm">Longest Streak</p>
+              <p className="text-xs mt-1">Mar 6 - Mar 7</p>
+            </div>
+          </div>
+        </ItemLayout>
+
+        <ItemLayout className={"col-span-full lg:col-span-6 !p-0"}>
           <Link
             href="https://psychecare.netlify.app/"
             target="_blank"
             className="w-full"
           >
-            <img
-              className="w-full h-auto"
-              src="https://github-readme-stats.vercel.app/api/pin/?username=officialniteshagarwal&repo=PsycheCare&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
-              alt="PsycheCare Project"
-              loading="lazy"
-            />
+            <div className="p-6 h-full flex flex-col">
+              <div className="flex items-center mb-4">
+                <span className="text-lg md:text-2xl font-bold flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  PYSCHECARE
+                </span>
+              </div>
+              <p className="text-sm mb-4">PsycheCare - A comprehensive AI-powered mental health platform. Features include 24/7 emotional support via an intelligent chatbot, emergency SOS functionality, personalized treatment plans, therapy appointment booking, and mental wellness tracking tools. Built to provide accessible, stigma-free mental healthcare for everyone.</p>
+              <div className="mt-auto flex items-center">
+                <span className="flex items-center mr-4">
+                  <span className="h-3 w-3 bg-red-500 rounded-full mr-1"></span>
+                  HTML
+                </span>
+                <span className="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1 text-[#FEFE5B]" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                  1
+                </span>
+              </div>
+            </div>
           </Link>
         </ItemLayout>
 
