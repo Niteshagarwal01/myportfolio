@@ -2,7 +2,7 @@
 
 A modern, interactive personal portfolio website built with Next.js, Three.js, and Tailwind CSS, showcasing my projects, skills, and achievements.
 
-![Portfolio Screenshot](public/background/home-background.png)
+
 
 ## 🌟 Live Demo
 
@@ -125,6 +125,23 @@ Feel free to reach out through:
 - [LinkedIn](https://www.linkedin.com/in/nitesh-agarwal-9a1313317/)
 - [GitHub](https://github.com/Niteshagarwal01)
 - [Instagram](https://www.instagram.com/cosmic_nitesh_/)
+
+
+📷Screenshots :-
+
+![Screenshot 2025-04-27 203218](https://github.com/user-attachments/assets/6f5f326d-59ea-423f-af39-6b391f11c153)
+
+![Screenshot 2025-04-27 203231](https://github.com/user-attachments/assets/443e3421-48e5-4623-a5de-8fe3c6bead66)
+
+![Screenshot 2025-04-27 203302](https://github.com/user-attachments/assets/7eac1ffc-3674-4981-80f1-c399681fde60)
+
+![Screenshot 2025-04-27 203249](https://github.com/user-attachments/assets/0e8b115f-35f8-4bb1-b4d6-dfb7dd0b1be8)
+
+
+![Screenshot 2025-04-27 203321](https://github.com/user-attachments/assets/49cdc634-9470-4ef6-abfd-dc74ff4cfcc7)
+
+
+
 
 ---
 
