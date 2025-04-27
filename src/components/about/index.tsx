@@ -19,16 +19,16 @@ const AboutDetails = () => {
             As a first-year Computer Science Engineering student, I specialize in UI/UX and graphic design while exploring storytelling through writing. My passion lies at the intersection of technology and creative expression, enabling me to develop solutions that are both functional and aesthetically pleasing.
           </p>
           <p className="font-light text-sm sm:text-md md:text-base mt-4">
-            On the tech front, I have expertise in Python development and have worked on AI models inspired by JARVIS and FRIDAY. I've built a fully functional smart assistant that can perform tasks like opening applications, web browsing, answering questions, setting reminders, and more through voice commands. This project demonstrates my ability to work with speech recognition, NLP, and automation APIs.
+            On the tech front, I have expertise in Python development and have worked on AI models inspired by JARVIS and FRIDAY. I&apos;ve built a fully functional smart assistant that can perform tasks like opening applications, web browsing, answering questions, setting reminders, and more through voice commands. This project demonstrates my ability to work with speech recognition, NLP, and automation APIs.
           </p>
           <p className="font-light text-sm sm:text-md md:text-base mt-4">
             I have designed and developed websites like FRIDAY, <i>Finding Myself in the Lies</i> (My own book), and Delta_Front, combining intuitive design with seamless functionality. My web projects showcase clean UI/UX principles, animations, and responsive layouts with minimalistic design inspired by sci-fi aesthetics.
           </p>
           <p className="font-light text-sm sm:text-md md:text-base mt-4">
-            Beyond coding, I'm also a published author with my book "Finding Myself in the Lies" exploring themes of self-awareness, emotional journeys, and inner conflict through compelling storytelling.
+            Beyond coding, I&apos;m also a published author with my book &quot;Finding Myself in the Lies&quot; exploring themes of self-awareness, emotional journeys, and inner conflict through compelling storytelling.
           </p>
           <p className="font-medium text-sm sm:text-md md:text-base mt-4">
-            Passionate about innovation, I thrive on crafting engaging digital experiences, developing intelligent solutions, and telling impactful stories. Let's connect and collaborate to bring ideas to life!
+            Passionate about innovation, I thrive on crafting engaging digital experiences, developing intelligent solutions, and telling impactful stories. Let&apos;s connect and collaborate to bring ideas to life!
           </p>
         </ItemLayout>
 
@@ -64,7 +64,7 @@ const AboutDetails = () => {
               <p className="font-semibold">Published Author</p>
               <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
                 <li>
-                  Published book "Finding Myself in the Lies" exploring self-awareness and emotional journeys
+                  Published book &quot;Finding Myself in the Lies&quot; exploring self-awareness and emotional journeys
                 </li>
                 <li>
                   Combines creative writing with psychological insights to deliver a compelling narrative
@@ -97,7 +97,7 @@ const AboutDetails = () => {
                 <b className="font-extrabold">1st Place @ IIT Delhi Tryst&apos;25</b> - Winner of the prestigious Techno War competition showcasing technical expertise and problem-solving skills
               </li>
               <li>
-                <b className="font-extrabold">Vihaan 8.0 Finals</b> - Reached the finals of VIT's flagship hackathon among thousands of participants
+                <b className="font-extrabold">Vihaan 8.0 Finals</b> - Reached the finals of VIT&apos;s flagship hackathon among thousands of participants
               </li>
               <li>
                 <b className="font-extrabold">SDI&apos;25 & SIH Attendee</b> - Participated in national-level hackathons, contributing innovative solutions to real-world problems
@@ -165,7 +165,7 @@ const AboutDetails = () => {
               </p>
               <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
                 <li>
-                  Voice-controlled AI assistant inspired by Iron Man's JARVIS
+                  Voice-controlled AI assistant inspired by Iron Man&apos;s JARVIS
                 </li>
                 <li>
                   Performs tasks like opening applications, web searching, answering questions, and setting reminders
