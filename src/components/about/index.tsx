@@ -354,9 +354,7 @@ const AboutDetails = () => {
           </Link>
         </ItemLayout>
 
-        <ItemLayout
-          className={"col-span-full text-accent mt-6"}
-        >
+        <ItemLayout className={"col-span-full text-accent mt-6"}>
           <div className="text-center">
             <p className="font-medium text-sm md:text-base">
               <Link href="/projects" className="text-blue-400 hover:underline">View all projects</Link> to explore the complete portfolio of my work
@@ -384,37 +382,16 @@ const AboutDetails = () => {
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full"}>
-          <div className="text-center mb-4">
-            <h3 className="font-bold text-xl">Technologies & Tools</h3>
-          </div>
-          <img
-            className="w-full h-auto"
-            src="https://skillicons.dev/icons?i=python,js,html,css,react,nextjs,figma,mongodb,ai,git,firebase,bootstrap,tailwind,vscode,blender"
-            alt="NiteshAgarwal"
-            loading="lazy"
-          />
-        </ItemLayout>
-
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src="https://github-readme-streak-stats.herokuapp.com?user=Niteshagarwal01&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B"
-            alt="NiteshAgarwal"
-            loading="lazy"
-          />
-        </ItemLayout>
-
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
-            href="https://github.com/Niteshagarwal01/AIRPIANO"
+            href="https://pyschecare.netlify.app/"
             target="_blank"
             className="w-full"
           >
             <img
               className="w-full h-auto"
-              src="https://github-readme-stats.vercel.app/api/pin/?username=Niteshagarwal01&repo=AIRPIANO&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
-              alt="AirPiano Project"
+              src="https://github-readme-stats.vercel.app/api/pin/?username=Niteshagarwal01&repo=PsycheCare&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
+              alt="PsycheCare Project"
               loading="lazy"
             />
           </Link>
