@@ -53,16 +53,28 @@ function ProjectLayout({
                 ))}
               </div>
               <div className="mt-6">
-                <Link href={demoLink} target="_blank">
-                  <span className="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition-colors duration-200">
-                    Demo
+                {demoLink === "UNDER_DEVELOPMENT" && sourceLink === "UNDER_DEVELOPMENT" ? (
+                  <span className="inline-block px-4 py-2 bg-yellow-500 text-black rounded font-semibold">
+                    🚧 Under Development
                   </span>
-                </Link>
-                <Link href={sourceLink} target="_blank">
-                  <span className="ml-2 inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition-colors duration-200">
-                    Source Code
-                  </span>
-                </Link>
+                ) : (
+                  <>
+                    {demoLink && (
+                      <Link href={demoLink} target="_blank">
+                        <span className="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition-colors duration-200">
+                          Demo
+                        </span>
+                      </Link>
+                    )}
+                    {sourceLink && (
+                      <Link href={sourceLink} target="_blank">
+                        <span className="ml-2 inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition-colors duration-200">
+                          Source Code
+                        </span>
+                      </Link>
+                    )}
+                  </>
+                )}
               </div>
             </div>
           </motion.div>

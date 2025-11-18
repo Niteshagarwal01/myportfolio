@@ -58,22 +58,35 @@ src/
 
 ## ✨ About Me
 
-I'm Nitesh Agarwal, a B.Tech CSE '28 student specializing in UI/UX design, Python development, and creative writing. My portfolio showcases my work in AI development, web design, and my published book "Finding Myself in the Lies."
+I'm Nitesh Agarwal, a highly driven B.Tech CSE student ('28) with a versatile skill set across Full Stack Development, AI/ML, UI/UX, and Graphic Design. I am passionate about blending technology and creativity to build impactful, user-centric products.
 
-Highlights include:
-- 1st Place @ IIT Delhi Tryst'25 (Techno War)
-- Vihaan8.0 Finals Attendee
-- SDI'25 & SIH Attendee
-- INMO Recognition
+**Current Roles:**
+- Graphics Head @ The Campus Chronicles (Full-time)
+- Graphic Designer @ Echelon Mediaa (Hybrid)
+
+**Key Achievements:**
+- 🏆 1st Place @ IIT Delhi Tryst'25 - Technowar Music Production Competition
+- 🎯 12+ Hackathons Participated
+- 🥇 6+ Hackathon Finalist Positions (Paranox 2.0, CipherHunt Top 10, Vihaan Finals)
+- 📚 Published Author - "Finding My Self in the Lies"
+
+**Technical Expertise:**
+- Programming: Python, JavaScript, React.js, Next.js
+- AI/ML: TensorFlow, Keras, NumPy, Pandas, YOLO v4
+- Tools: Razorpay, Clerk Authentication, Pinecone, Weaviate
+- Design: Figma, Canva, UI/UX Design
 
 ## 📚 Featured Projects
 
-1. **Jarvis Assistant**: A smart voice assistant built with Python
-2. **Finding Myself in the Lies**: Published book with interactive website
-3. **AirPiano**: Virtual musical instrument using computer vision
-4. **Delta_Front**: Futuristic web interface with sci-fi aesthetics
-5. **PsycheCare**: AI-powered mental health platform
-6. **Constitution Made Easy**: Educational platform for learning about the Indian Constitution
+1. **Tastify**: Spotify-inspired recipe discovery app with React Native, 8 themes, and cross-platform support
+2. **Mirai**: Digital marketing automation platform with 12+ API integrations
+3. **ipu_guru**: Smart study platform with AI-driven personalized learning [In Development]
+4. **Jarvis & Friday**: AI-powered voice assistants with advanced automation
+5. **Emotion Detection Model**: Real-time emotion recognition using YOLO v4
+6. **Finding My Self in the Lies**: Published book with interactive website
+7. **PsycheCare**: AI-powered mental health platform
+8. **Delta Front**: Design projects for various brands
+9. **AirPiano**: Virtual musical instrument using computer vision
 
 ## 🚀 Getting Started
 

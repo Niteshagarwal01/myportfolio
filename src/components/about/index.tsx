@@ -13,42 +13,48 @@ const AboutDetails = () => {
           }
         >
           <h2 className="text-xl md:text-2xl text-left w-full font-bold mb-4">
-            B.Tech CSE &apos;28 | 1st Place @ IIT Delhi Tryst&apos;25 (Techno War) | Vihaan8.0 Finals Attendee | SDI&apos;25 & SIH Attendee | UI/UX & Graphic Designer | Python & Software Developer | Writer | INMO
+            B.Tech CSE &apos;28 | Graphics Head @ The Campus Chronicles | Graphic Designer @ Echelon Mediaa | 1st Place @ IIT Delhi Tryst&apos;25 | 12+ Hackathons | 6+ Finals | Published Author
           </h2>
           <p className="font-light text-sm sm:text-md md:text-base mt-2">
-            As a first-year Computer Science Engineering student, I specialize in UI/UX and graphic design while exploring storytelling through writing. My passion lies at the intersection of technology and creative expression, enabling me to develop solutions that are both functional and aesthetically pleasing.
+            I am a highly driven B.Tech CSE student (&apos;28) with a versatile skill set across Full Stack Development, AI/ML, UI/UX, and Graphic Design. My passion lies at the intersection of creative thinking and technical problem-solving—where I strive to build impactful, user-centric products.
           </p>
           <p className="font-light text-sm sm:text-md md:text-base mt-4">
-            On the tech front, I have expertise in Python development and have worked on AI models inspired by JARVIS and FRIDAY. I&apos;ve built a fully functional smart assistant that can perform tasks like opening applications, web browsing, answering questions, setting reminders, and more through voice commands. This project demonstrates my ability to work with speech recognition, NLP, and automation APIs.
+            I currently serve as the Graphics Head at The Campus Chronicles (Full-time), leading creative direction and design strategy, and work as a Graphic Designer at Echelon Mediaa (Hybrid), contributing to brand visuals and digital campaigns.
           </p>
           <p className="font-light text-sm sm:text-md md:text-base mt-4">
-            I have designed and developed websites like FRIDAY, <i>Finding Myself in the Lies</i> (My own book), and Delta_Front, combining intuitive design with seamless functionality. My web projects showcase clean UI/UX principles, animations, and responsive layouts with minimalistic design inspired by sci-fi aesthetics.
+            With expertise in Python, JavaScript, React.js, and Next.js, I&apos;ve built AI assistants like &quot;Jarvis&quot; and &quot;Friday,&quot; developed an Emotion Detection model using YOLO v4, and created full-stack platforms like Mirai (digital marketing automation), PsycheCare (mental health platform), and ipu_guru (smart study platform currently in development).
           </p>
           <p className="font-light text-sm sm:text-md md:text-base mt-4">
-            Beyond coding, I&apos;m also a published author with my book &quot;Finding Myself in the Lies&quot; exploring themes of self-awareness, emotional journeys, and inner conflict through compelling storytelling.
+            My design portfolio includes projects for Delta Front, Hurricane Store, and various brand-focused initiatives emphasizing clean, responsive, and engaging interfaces. I&apos;m also a published author with my book &quot;Finding Myself in the Lies&quot; exploring themes of self-awareness and emotional journeys.
           </p>
           <p className="font-medium text-sm sm:text-md md:text-base mt-4">
-            Passionate about innovation, I thrive on crafting engaging digital experiences, developing intelligent solutions, and telling impactful stories. Let&apos;s connect and collaborate to bring ideas to life!
+            I am deeply passionate about blending technology and creativity to build solutions that truly make a difference. I constantly seek opportunities to innovate, explore, and contribute to meaningful, impactful projects. Let&apos;s connect and collaborate!
           </p>
         </ItemLayout>
 
         <ItemLayout
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
-          <p className="font-semibold w-full text-left text-2xl sm:text-4xl">
-            UI/UX & Python Developer
-          </p>
-          <p className="font-light text-sm mt-2">Creative Technologist & Author</p>
+          <div className="flex flex-col justify-center h-full space-y-2">
+            <p className="font-bold w-full text-left text-3xl sm:text-4xl lg:text-5xl leading-tight">
+              Full Stack & AI/ML Developer
+            </p>
+            <p className="font-semibold text-sm sm:text-base lg:text-lg">Graphics Head | UI/UX Designer</p>
+            <p className="font-light text-xs sm:text-sm lg:text-base">Published Author | Creative Technologist</p>
+          </div>
         </ItemLayout>
 
         <ItemLayout
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
-          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            1st
-            <sub className="font-semibold text-base">Place @ IIT Delhi Tryst&apos;25</sub>
-          </p>
-          <p className="font-light text-sm mt-2">Winner of Techno War Competition</p>
+          <div className="flex flex-col justify-center h-full space-y-2">
+            <p className="font-bold w-full text-left text-2xl sm:text-3xl lg:text-4xl leading-tight">
+              12+ Hackathons Participated
+            </p>
+            <p className="font-bold text-xl sm:text-2xl lg:text-3xl text-yellow-400">6 Finalist Positions</p>
+            <p className="font-bold text-xl sm:text-2xl lg:text-3xl text-green-400">2 Competition Wins</p>
+            <p className="font-semibold text-sm sm:text-base mt-1">Including 1st @ IIT Delhi Tryst&apos;25</p>
+          </div>
         </ItemLayout>
 
         <ItemLayout
@@ -59,12 +65,13 @@ const AboutDetails = () => {
           <Link
             href="https://finding-myself-in-the-lies.netlify.app/"
             target="_blank"
+            className="block h-full"
           >
-            <div className="font-semibold w-full text-left text-3xl space-y-4">
-              <p className="font-semibold">Published Author</p>
-              <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
+            <div className="font-semibold w-full text-left h-full flex flex-col">
+              <p className="font-bold text-xl sm:text-2xl mb-3">Published Author</p>
+              <ul className="font-light text-xs sm:text-sm list-disc list-inside text-white space-y-1.5 flex-grow">
                 <li>
-                  Published book &quot;Finding Myself in the Lies&quot; exploring self-awareness and emotional journeys
+                  Published book &quot;Finding My Self in the Lies&quot; exploring self-awareness and emotional journeys
                 </li>
                 <li>
                   Combines creative writing with psychological insights to deliver a compelling narrative
@@ -76,7 +83,7 @@ const AboutDetails = () => {
                   Created accompanying website to showcase the book and its themes
                 </li>
               </ul>
-              <p className="float-end font-semibold text-xs">
+              <p className="font-semibold text-xs mt-3 text-right">
                 Released March 2025
               </p>
             </div>
@@ -85,28 +92,34 @@ const AboutDetails = () => {
 
         <ItemLayout
           className={
-            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
+            "col-span-full xs:col-span-6 lg:col-span-4 text-accent"
           }
         >
-          <div className="font-semibold w-full text-left text-3xl space-y-4">
-            <p className="font-semibold">
-              Academic Achievements
+          <div className="font-semibold w-full text-left h-full flex flex-col">
+            <p className="font-bold text-xl sm:text-2xl mb-3">
+              Achievements & Leadership
             </p>
-            <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
+            <ul className="font-light text-xs sm:text-sm list-disc list-inside text-white space-y-1.5 flex-grow">
               <li>
-                <b className="font-extrabold">1st Place @ IIT Delhi Tryst&apos;25</b> - Winner of the prestigious Techno War competition showcasing technical expertise and problem-solving skills
+                <b className="font-bold">Graphics Head</b> - The Campus Chronicles (Full-time)
               </li>
               <li>
-                <b className="font-extrabold">Vihaan 8.0 Finals</b> - Reached the finals of VIT&apos;s flagship hackathon among thousands of participants
+                <b className="font-bold">Graphic Designer</b> - Echelon Mediaa (Hybrid)
               </li>
               <li>
-                <b className="font-extrabold">SDI&apos;25 & SIH Attendee</b> - Participated in national-level hackathons, contributing innovative solutions to real-world problems
+                <b className="font-bold">12+ Hackathons</b> - National and international level
               </li>
               <li>
-                <b className="font-extrabold">INMO</b> - Recognized for excellence in the Indian National Mathematical Olympiad
+                <b className="font-bold">6+ Finalist Positions</b> - Paranox 2.0, CipherHunt (Top 10), Vihaan
+              </li>
+              <li>
+                <b className="font-bold">1st Place @ IIT Delhi Tryst&apos;25</b> - Technowar Competition
+              </li>
+              <li>
+                <b className="font-bold">Published Author</b> - &quot;Finding My Self in the Lies&quot;
               </li>
             </ul>
-            <p className="float-end font-semibold text-xs">
+            <p className="font-semibold text-xs mt-3 text-right">
               2024 - 2025
             </p>
           </div>
@@ -114,28 +127,31 @@ const AboutDetails = () => {
 
         <ItemLayout
           className={
-            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
+            "col-span-full xs:col-span-6 lg:col-span-4 text-accent"
           }
         >
-          <div className="font-semibold w-full text-left text-3xl space-y-4">
-            <p className="font-semibold">
-              Technical Skills
+          <div className="font-semibold w-full text-left h-full flex flex-col">
+            <p className="font-bold text-xl sm:text-2xl mb-3">
+              Technical Expertise
             </p>
-            <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
+            <ul className="font-light text-xs sm:text-sm list-disc list-inside text-white space-y-1.5 flex-grow">
               <li>
-                <b className="font-extrabold">UI/UX & Graphic Design</b> - Creating intuitive, engaging interfaces with strong visual identity and user-centered approach
+                <b className="font-bold">Programming & Frameworks</b> - Python, JavaScript, React.js, Next.js
               </li>
               <li>
-                <b className="font-extrabold">Python Development</b> - Building AI models, automation tools, computer vision applications (AirPiano), and intelligent systems
+                <b className="font-bold">AI/ML Tools</b> - TensorFlow, Keras, NumPy, Pandas, YOLO v4
               </li>
               <li>
-                <b className="font-extrabold">Web Development</b> - Crafting responsive, modern websites with HTML, CSS, JavaScript, React and Next.js
+                <b className="font-bold">Payments & Auth</b> - Razorpay, Clerk Authentication
               </li>
               <li>
-                <b className="font-extrabold">Problem Solving</b> - Algorithmic thinking, creative solutions, and analytical approach to technical challenges
+                <b className="font-bold">Databases</b> - Pinecone, Weaviate (Vector DBs)
+              </li>
+              <li>
+                <b className="font-bold">Design Tools</b> - Figma, Canva, UI/UX Design
               </li>
             </ul>
-            <p className="float-end font-semibold text-xs">
+            <p className="font-semibold text-xs mt-3 text-right">
               B.Tech CSE &apos;28
             </p>
           </div>
@@ -146,7 +162,71 @@ const AboutDetails = () => {
         >
           <div className="w-full text-center mb-6">
             <h2 className="font-bold text-2xl md:text-3xl">Featured Projects</h2>
-            <p className="font-light text-sm md:text-base mt-2">A selection of my notable works that showcase my technical and creative abilities</p>
+            <p className="font-light text-sm md:text-base mt-2">Top 3 projects showcasing my technical expertise</p>
+          </div>
+        </ItemLayout>
+
+        <ItemLayout
+          className={
+            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
+          }
+        >
+          <Link
+            href="https://github.com/Niteshagarwal01/Tastify-Spotify-for-Recipes"
+            target="_blank"
+            className="block h-full"
+          >
+            <div className="font-semibold w-full text-left h-full flex flex-col">
+              <p className="font-bold text-xl sm:text-2xl mb-3">
+                Tastify - Spotify of Recipes
+              </p>
+              <ul className="font-light text-xs sm:text-sm list-disc list-inside text-white space-y-1.5 flex-grow">
+                <li>
+                  Modern recipe discovery app with <b className="font-bold">Spotify-like interface</b>
+                </li>
+                <li>
+                  Features 8 beautiful themes, YouTube tutorials, and smart search
+                </li>
+                <li>
+                  Built with <b className="font-bold">React Native</b>, <b className="font-bold">Expo</b>, <b className="font-bold">Node.js</b>, and <b className="font-bold">PostgreSQL</b>
+                </li>
+                <li>
+                  Cross-platform app with Clerk auth and TheMealDB API
+                </li>
+              </ul>
+              <p className="font-semibold text-xs mt-3 text-right">
+                2025
+              </p>
+            </div>
+          </Link>
+        </ItemLayout>
+
+        <ItemLayout
+          className={
+            "col-span-full xs:col-span-6 lg:col-span-4 text-accent"
+          }
+        >
+          <div className="font-semibold w-full text-left h-full flex flex-col">
+            <p className="font-bold text-xl sm:text-2xl mb-3">
+              Mirai - Marketing Automation
+            </p>
+            <ul className="font-light text-xs sm:text-sm list-disc list-inside text-white space-y-1.5 flex-grow">
+              <li>
+                Digital marketing automation with <b className="font-bold">12+ API integrations</b>
+              </li>
+              <li>
+                Automates social media, photoshoots, and video campaigns
+              </li>
+              <li>
+                Built with <b className="font-bold">Next.js</b>, <b className="font-bold">Python</b>, <b className="font-bold">LangChain</b>, and <b className="font-bold">Google Cloud</b>
+              </li>
+              <li>
+                Razorpay payment integration and smart chatbot agents
+              </li>
+            </ul>
+            <p className="font-semibold text-xs mt-3 text-right">
+              2025
+            </p>
           </div>
         </ItemLayout>
 
@@ -158,197 +238,28 @@ const AboutDetails = () => {
           <Link
             href="https://github.com/Niteshagarwal01/jarvis"
             target="_blank"
+            className="block h-full"
           >
-            <div className="font-semibold w-full text-left text-3xl space-y-4">
-              <p className="font-semibold">
-                Jarvis Assistant
+            <div className="font-semibold w-full text-left h-full flex flex-col">
+              <p className="font-bold text-xl sm:text-2xl mb-3">
+                Jarvis & Friday AI Assistants
               </p>
-              <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
+              <ul className="font-light text-xs sm:text-sm list-disc list-inside text-white space-y-1.5 flex-grow">
                 <li>
-                  Voice-controlled AI assistant inspired by Iron Man&apos;s JARVIS
+                  Voice-controlled AI assistants inspired by Iron Man&apos;s JARVIS and FRIDAY
                 </li>
                 <li>
-                  Performs tasks like opening applications, web searching, answering questions, and setting reminders
+                  Perform tasks like opening apps, web searching, and managing schedules
                 </li>
                 <li>
-                  Built with <b className="font-extrabold">Python</b>, <b className="font-extrabold">Speech Recognition</b>, and <b className="font-extrabold">NLP</b>
+                  Built with <b className="font-bold">Python</b>, <b className="font-bold">Speech Recognition</b>, and <b className="font-bold">NLP</b>
                 </li>
                 <li>
-                  Implements automation APIs for system control and task management
+                  Advanced automation and conversational AI capabilities
                 </li>
               </ul>
-              <p className="float-end font-semibold text-xs">
-                 2024
-              </p>
-            </div>
-          </Link>
-        </ItemLayout>
-
-        <ItemLayout
-          className={
-            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
-          }
-        >
-          <Link
-            href="https://finding-myself-in-the-lies.netlify.app/"
-            target="_blank"
-          >
-            <div className="font-semibold w-full text-left text-3xl space-y-4">
-              <p className="font-semibold">
-                Finding Myself in the Lies
-              </p>
-              <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
-                <li>
-                  Published book with accompanying interactive website
-                </li>
-                <li>
-                  Explores themes of self-awareness, emotional journeys, and personal growth
-                </li>
-                <li>
-                  Website built with <b className="font-extrabold">HTML</b>, <b className="font-extrabold">CSS</b>, and <b className="font-extrabold">JavaScript</b>
-                </li>
-                <li>
-                  Showcases responsive design and engaging user experience
-                </li>
-              </ul>
-              <p className="float-end font-semibold text-xs">
-                March 2025
-              </p>
-            </div>
-          </Link>
-        </ItemLayout>
-
-        <ItemLayout
-          className={
-            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
-          }
-        >
-          <Link
-            href="https://github.com/Niteshagarwal01/AIRPIANO"
-            target="_blank"
-          >
-            <div className="font-semibold w-full text-left text-3xl space-y-4">
-              <p className="font-semibold">
-                AirPiano
-              </p>
-              <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
-                <li>
-                  Virtual musical instrument controlled by hand gestures
-                </li>
-                <li>
-                  Utilizes <b className="font-extrabold">OpenCV</b> and <b className="font-extrabold">MediaPipe</b> for real-time hand tracking
-                </li>
-                <li>
-                  Maps finger positions to musical notes for intuitive playing
-                </li>
-                <li>
-                  Demonstrates expertise in computer vision and interactive design
-                </li>
-              </ul>
-              <p className="float-end font-semibold text-xs">
-                2025
-              </p>
-            </div>
-          </Link>
-        </ItemLayout>
-
-        <ItemLayout
-          className={
-            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
-          }
-        >
-          <Link
-            href="https://delta-front-clothing-store.netlify.app/"
-            target="_blank"
-          >
-            <div className="font-semibold w-full text-left text-3xl space-y-4">
-              <p className="font-semibold">
-                Delta_Front
-              </p>
-              <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
-                <li>
-                  Futuristic web interface with sci-fi-inspired aesthetics
-                </li>
-                <li>
-                  Features clean UI/UX principles, animations, and responsive layouts
-                </li>
-                <li>
-                  Built with <b className="font-extrabold">HTML</b>, <b className="font-extrabold">CSS</b>, and <b className="font-extrabold">JavaScript</b>
-                </li>
-                <li>
-                  Demonstrates frontend design skills and attention to visual detail
-                </li>
-              </ul>
-              <p className="float-end font-semibold text-xs">
-                2025
-              </p>
-            </div>
-          </Link>
-        </ItemLayout>
-
-        <ItemLayout
-          className={
-            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
-          }
-        >
-          <Link
-            href="https://pyschecare.netlify.app/"
-            target="_blank"
-          >
-            <div className="font-semibold w-full text-left text-3xl space-y-4">
-              <p className="font-semibold">
-                PsycheCare
-              </p>
-              <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
-                <li>
-                  AI-powered mental health platform with comprehensive features
-                </li>
-                <li>
-                  Includes emotional support chatbot, treatment plans, and wellness tracking
-                </li>
-                <li>
-                  Developed with <b className="font-extrabold">AI</b>, <b className="font-extrabold">HTML/CSS/JS</b>, and <b className="font-extrabold">Python</b>
-                </li>
-                <li>
-                  Focused on accessible, stigma-free mental healthcare
-                </li>
-              </ul>
-              <p className="float-end font-semibold text-xs">
-                2025
-              </p>
-            </div>
-          </Link>
-        </ItemLayout>
-
-        <ItemLayout
-          className={
-            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
-          }
-        >
-          <Link
-            href="https://constitution-made-easy.netlify.app/"
-            target="_blank"
-          >
-            <div className="font-semibold w-full text-left text-3xl space-y-4">
-              <p className="font-semibold">
-                Constitution Made Easy
-              </p>
-              <ul className="font-light text-sm sm:text-md md:text-base list-disc list-inside text-white">
-                <li>
-                  Educational platform simplifying the Indian Constitution
-                </li>
-                <li>
-                  Features AI-driven summaries, interactive infographics, and quizzes
-                </li>
-                <li>
-                  Built with <b className="font-extrabold">React</b>, <b className="font-extrabold">Next.js</b>, and <b className="font-extrabold">Tailwind CSS</b>
-                </li>
-                <li>
-                  Makes complex legal concepts accessible for students and learners
-                </li>
-              </ul>
-              <p className="float-end font-semibold text-xs">
-                2024
+              <p className="font-semibold text-xs mt-3 text-right">
+                2024-2025
               </p>
             </div>
           </Link>
@@ -365,7 +276,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=Niteshagarwal01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=Niteshagarwal01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&layout=compact&langs_count=8&hide=html,css"
             alt="NiteshAgarwal"
             loading="lazy"
           />
@@ -374,7 +285,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api?username=Niteshagarwal01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            src="https://github-readme-stats.vercel.app/api?username=Niteshagarwal01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true&include_all_commits=true"
             alt="NiteshAgarwal"
             loading="lazy"
           />
@@ -412,35 +323,31 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full lg:col-span-6 !p-0"}>
-          <Link
-            href="https://psychecare.netlify.app/"
-            target="_blank"
-            className="w-full"
-          >
-            <div className="p-6 h-full flex flex-col">
-              <div className="flex items-center mb-4">
-                <span className="text-lg md:text-2xl font-bold flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  PYSCHECARE
-                </span>
-              </div>
-              <p className="text-sm mb-4">PsycheCare - A comprehensive AI-powered mental health platform. Features include 24/7 emotional support via an intelligent chatbot, emergency SOS functionality, personalized treatment plans, therapy appointment booking, and mental wellness tracking tools. Built to provide accessible, stigma-free mental healthcare for everyone.</p>
-              <div className="mt-auto flex items-center">
-                <span className="flex items-center mr-4">
-                  <span className="h-3 w-3 bg-red-500 rounded-full mr-1"></span>
-                  HTML
-                </span>
-                <span className="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1 text-[#FEFE5B]" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-                  </svg>
-                  1
-                </span>
-              </div>
+          <div className="p-6 h-full flex flex-col">
+            <div className="flex items-center mb-4">
+              <span className="text-lg md:text-2xl font-bold flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                MIRAI
+              </span>
             </div>
-          </Link>
+            <p className="text-sm mb-4">Mirai - A cutting-edge digital marketing automation platform integrating 12+ APIs to streamline marketing operations. Automates social media posts, photoshoots, and video campaigns with smart chatbot agents for intelligent customer engagement. Built with Next.js, Python, LangChain, Google Cloud, and Razorpay payment integration.</p>
+            <div className="mt-auto flex items-center flex-wrap gap-2">
+              <span className="flex items-center">
+                <span className="h-3 w-3 bg-blue-500 rounded-full mr-1"></span>
+                Next.js
+              </span>
+              <span className="flex items-center">
+                <span className="h-3 w-3 bg-yellow-500 rounded-full mr-1"></span>
+                Python
+              </span>
+              <span className="flex items-center">
+                <span className="h-3 w-3 bg-green-500 rounded-full mr-1"></span>
+                AI/ML
+              </span>
+            </div>
+          </div>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>

@@ -3,6 +3,66 @@ import { BtnListType, ProjectListType } from "./types";
 export const projectsData: ProjectListType[] = [
   {
     id: 1,
+    name: "Tastify - Spotify of Recipes",
+    subHeading: "Modern Recipe Discovery App",
+    description:
+      "A modern, sleek recipe discovery app with a Spotify-like interface for browsing, discovering, and saving delicious recipes from around the world. Features secure authentication with Clerk, smart search by name or ingredients, detailed step-by-step cooking guides, YouTube video tutorials, favorites system, and 8 beautiful themes (Coffee, Forest, Purple, Ocean, Sunset, Mint, Midnight, Rose Gold). Built with React Native + Expo for cross-platform support, Node.js + Express backend, PostgreSQL database with Drizzle ORM, and TheMealDB API for recipe data.",
+    demoLink: "",
+    sourceLink: "https://github.com/Niteshagarwal01/Tastify-Spotify-for-Recipes",
+    techStack: [
+      "React Native",
+      "Expo",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Clerk Auth",
+      "TheMealDB API",
+      "YouTube API",
+      "Cross-Platform",
+    ],
+  },
+  {
+    id: 2,
+    name: "Mirai - AI Marketing Automation Platform",
+    subHeading: "Digital Marketing Automation System",
+    description:
+      "A cutting-edge digital marketing automation platform integrating 12+ APIs to streamline marketing operations. Mirai automates social media posts, photoshoots, and video campaigns, along with smart chatbot agents for intelligent customer engagement. Built using Next.js, Python, LangChain, Google Cloud, VAPI, Chatbase, and Google Cloud with Razorpay payment integration for seamless transactions.",
+    demoLink: "",
+    sourceLink: "",
+    techStack: [
+      "Next.js",
+      "Python",
+      "LangChain",
+      "nBn",
+      "OpenAI",
+      "Google Cloud",
+      "VAPI",
+      "Chatbase",
+      "Razorpay",
+      "12+ API Integrations",
+    ],
+  },
+  {
+    id: 3,
+    name: "ipu_guru - Smart Study Platform",
+    subHeading: "AI-Powered Educational Platform [In Development]",
+    description:
+      "An intelligent study platform currently in development, designed to revolutionize the learning experience for students. ipu_guru will feature AI-driven personalized study plans, smart content recommendations, progress tracking, and collaborative learning tools to help students achieve their academic goals efficiently.",
+    demoLink: "UNDER_DEVELOPMENT",
+    sourceLink: "UNDER_DEVELOPMENT",
+    techStack: [
+      "React.js",
+      "Next.js",
+      "AI/ML",
+      "Python",
+      "TensorFlow",
+      "Vector Databases",
+      "Authentication",
+    ],
+  },
+  {
+    id: 4,
     name: "Jarvis Assistant",
     subHeading: "Smart Voice Assistant",
     description:
@@ -20,8 +80,43 @@ export const projectsData: ProjectListType[] = [
     ],
   },
   {
-    id: 2,
-    name: "Finding Myself in the Lies",
+    id: 5,
+    name: "Friday AI Assistant",
+    subHeading: "Advanced AI Personal Assistant",
+    description:
+      "An advanced AI-powered personal assistant inspired by Iron Man's FRIDAY. Built with Python, this intelligent system performs complex tasks, provides smart suggestions, manages schedules, and offers conversational AI capabilities. Features include voice commands, task automation, and integration with various productivity tools.",
+    demoLink: "",
+    sourceLink: "",
+    techStack: [
+      "Python",
+      "AI",
+      "Natural Language Processing",
+      "Speech Recognition",
+      "Automation",
+      "Machine Learning",
+    ],
+  },
+  {
+    id: 6,
+    name: "Emotion Detection Model",
+    subHeading: "AI-Powered Emotion Recognition",
+    description:
+      "An advanced emotion detection system built using YOLO v4 for real-time facial expression analysis. The model accurately identifies and classifies human emotions from images and video streams, enabling applications in mental health monitoring, user experience research, and interactive systems.",
+    demoLink: "",
+    sourceLink: "",
+    techStack: [
+      "Python",
+      "YOLO v4",
+      "OpenCV",
+      "TensorFlow",
+      "Computer Vision",
+      "Deep Learning",
+      "Real-time Processing",
+    ],
+  },
+  {
+    id: 7,
+    name: "Finding My Self in the Lies",
     subHeading: "Creative Writing & Published Book",
     description:
       "A personal creative project and published book that explores the journey of self-awareness, emotions, and inner conflict through compelling storytelling. The work combines creative writing, emotional intelligence, and introspection to inspire readers to question illusions and find their true selves.",
@@ -34,7 +129,7 @@ export const projectsData: ProjectListType[] = [
     ],
   },
   {
-    id: 3,
+    id: 8,
     name: "Delta_Front",
     subHeading: "Futuristic Web Interface",
     description:
@@ -49,7 +144,7 @@ export const projectsData: ProjectListType[] = [
     ],
   },
   {
-    id: 4,
+    id: 9,
     name: "ARYA - AI Mental Health Platform [In Development]",
     subHeading: "AI & Web3 Mental Health Solution",
     description:
@@ -68,7 +163,7 @@ export const projectsData: ProjectListType[] = [
     ],
   },
   {
-    id: 5,
+    id: 10,
     name: "PsycheCare - AI Mental Health Platform",
     subHeading: "Comprehensive Digital Mental Health Ecosystem",
     description:
@@ -87,7 +182,7 @@ export const projectsData: ProjectListType[] = [
     ],
   },
   {
-    id: 6,
+    id: 11,
     name: "Constitution Made Easy",
     subHeading: "Educational Platform for Indian Constitution",
     description:
@@ -105,7 +200,7 @@ export const projectsData: ProjectListType[] = [
     ],
   },
   {
-    id: 7,
+    id: 12,
     name: "VANET - Vehicular Ad-hoc Networks Simulation",
     subHeading: "Vehicle-to-Vehicle Communication Research",
     description:
@@ -123,7 +218,7 @@ export const projectsData: ProjectListType[] = [
     ],
   },
   {
-    id: 8,
+    id: 13,
     name: "Website Projects",
     subHeading: "Frontend Design & Development Collection",
     description:
@@ -143,7 +238,7 @@ export const projectsData: ProjectListType[] = [
     ],
   },
   {
-    id: 9,
+    id: 14,
     name: "Python Practice Projects",
     subHeading: "Automation & Utility Scripts Collection",
     description:
@@ -162,7 +257,7 @@ export const projectsData: ProjectListType[] = [
   },
 
   {
-    id: 10,
+    id: 14,
     name: "AirPiano - Virtual Musical Instrument",
     subHeading: "Gesture-Based Music Creation",
     description:
