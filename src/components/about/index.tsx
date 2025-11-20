@@ -1,9 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import React from "react";
 import Link from "next/link";
 import ItemLayout from "./ItemLayout";
 
 const AboutDetails = () => {
+  // ...no custom state or API fetch for GitHub stats...
+
   return (
     <section className="sm:px-20 sm:pb-20 px-5 pb-5 w-full">
       <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full">
@@ -32,63 +35,7 @@ const AboutDetails = () => {
           </p>
         </ItemLayout>
 
-        <ItemLayout
-          className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
-        >
-          <div className="flex flex-col justify-center h-full space-y-2">
-            <p className="font-bold w-full text-left text-3xl sm:text-4xl lg:text-5xl leading-tight">
-              Full Stack & AI/ML Developer
-            </p>
-            <p className="font-semibold text-sm sm:text-base lg:text-lg">Graphics Head | UI/UX Designer</p>
-            <p className="font-light text-xs sm:text-sm lg:text-base">Published Author | Creative Technologist</p>
-          </div>
-        </ItemLayout>
-
-        <ItemLayout
-          className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
-        >
-          <div className="flex flex-col justify-center h-full space-y-2">
-            <p className="font-bold w-full text-left text-2xl sm:text-3xl lg:text-4xl leading-tight">
-              12+ Hackathons Participated
-            </p>
-            <p className="font-bold text-xl sm:text-2xl lg:text-3xl text-yellow-400">6 Finalist Positions</p>
-            <p className="font-bold text-xl sm:text-2xl lg:text-3xl text-green-400">2 Competition Wins</p>
-            <p className="font-semibold text-sm sm:text-base mt-1">Including 1st @ IIT Delhi Tryst&apos;25</p>
-          </div>
-        </ItemLayout>
-
-        <ItemLayout
-          className={
-            "col-span-full xs:col-span-6 lg:col-span-4 text-accent cursor-pointer"
-          }
-        >
-          <Link
-            href="https://finding-myself-in-the-lies.netlify.app/"
-            target="_blank"
-            className="block h-full"
-          >
-            <div className="font-semibold w-full text-left h-full flex flex-col">
-              <p className="font-bold text-xl sm:text-2xl mb-3">Published Author</p>
-              <ul className="font-light text-xs sm:text-sm list-disc list-inside text-white space-y-1.5 flex-grow">
-                <li>
-                  Published book &quot;Finding My Self in the Lies&quot; exploring self-awareness and emotional journeys
-                </li>
-                <li>
-                  Combines creative writing with psychological insights to deliver a compelling narrative
-                </li>
-                <li>
-                  Explores themes of personal growth, authenticity, identity, and inner conflict
-                </li>
-                <li>
-                  Created accompanying website to showcase the book and its themes
-                </li>
-              </ul>
-              <p className="font-semibold text-xs mt-3 text-right">
-                Released March 2025
-              </p>
-            </div>
-          </Link>
-        </ItemLayout>
+        
 
         <ItemLayout
           className={
@@ -157,9 +104,7 @@ const AboutDetails = () => {
           </div>
         </ItemLayout>
 
-        <ItemLayout
-          className={"col-span-full text-accent"}
-        >
+        <ItemLayout className={"col-span-full text-accent"}>
           <div className="w-full text-center mb-6">
             <h2 className="font-bold text-2xl md:text-3xl">Featured Projects</h2>
             <p className="font-light text-sm md:text-base mt-2">Top 3 projects showcasing my technical expertise</p>
@@ -273,11 +218,19 @@ const AboutDetails = () => {
           </div>
         </ItemLayout>
 
+        {/* GitHub Stats Section */}
+        <ItemLayout className="col-span-full text-accent mt-8">
+          <div className="w-full text-center mb-6">
+            <h2 className="font-bold text-2xl md:text-3xl">GitHub Statistics</h2>
+            <p className="font-light text-sm md:text-base mt-2">Contribution activity and coding streaks</p>
+          </div>
+        </ItemLayout>
+
         <ItemLayout className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}>
           <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api/top-langs?username=Niteshagarwal01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&layout=compact&langs_count=8&hide=html,css"
-            alt="NiteshAgarwal"
+            alt="NiteshAgarwal Top Languages"
             loading="lazy"
           />
         </ItemLayout>
@@ -285,41 +238,30 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api?username=Niteshagarwal01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true&include_all_commits=true"
-            alt="NiteshAgarwal"
+            src="https://github-readme-stats.vercel.app/api?username=Niteshagarwal01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide=contribs"
+            alt="NiteshAgarwal GitHub Stats"
             loading="lazy"
           />
         </ItemLayout>
-        
 
-       
-        
-
+        {/* GitHub Streak Stats */}
         <ItemLayout className={"col-span-full lg:col-span-6 !p-0"}>
-          <div className="grid grid-cols-3 gap-4">
-            <div className="col-span-1 flex flex-col justify-center items-center text-center">
-              <p className="text-4xl font-bold">58</p>
-              <p className="text-sm">Total Contributions</p>
-              <p className="text-xs mt-1">Aug 27, 2024 - Present</p>
-            </div>
-            
-            <div className="col-span-1 flex flex-col justify-center items-center text-center">
-              <div className="relative">
-                <div className="rounded-full h-24 w-24 border-4 border-[#FEFE5B] flex items-center justify-center">
-                  <span className="text-4xl font-bold">1</span>
-                </div>
-                <div className="absolute top-0 right-0 h-6 w-6 bg-orange-500 rounded-full"></div>
-              </div>
-              <p className="text-sm mt-2">Current Streak</p>
-              <p className="text-xs mt-1">Apr 27</p>
-            </div>
-            
-            <div className="col-span-1 flex flex-col justify-center items-center text-center">
-              <p className="text-4xl font-bold">2</p>
-              <p className="text-sm">Longest Streak</p>
-              <p className="text-xs mt-1">Mar 6 - Mar 7</p>
-            </div>
-          </div>
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=Niteshagarwal01&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&fire=FEFE5B&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideNums=FEFE5B"
+            alt="NiteshAgarwal GitHub Streak"
+            loading="lazy"
+          />
+        </ItemLayout>
+
+        {/* GitHub Contribution Graph */}
+        <ItemLayout className={"col-span-full lg:col-span-6 !p-0"}>
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-activity-graph.vercel.app/graph?username=Niteshagarwal01&theme=github-dark&hide_border=true&bg_color=00000000&color=FFFFFF&line=FEFE5B&point=FEFE5B&area=true&area_color=FEFE5B"
+            alt="NiteshAgarwal Contribution Graph"
+            loading="lazy"
+          />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full lg:col-span-6 !p-0"}>

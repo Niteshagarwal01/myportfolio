@@ -6,7 +6,7 @@ A modern, interactive personal portfolio website built with Next.js, Three.js, a
 
 ## 🌟 Live Demo
 
-Visit the live portfolio website: [niteshagarwal-portfolio.netlify.app](https://niteshagarwal-portfolio.netlify.app)
+Visit the live portfolio website: https://www.madebynitesh.xyz/
 
 ## 📋 Features
 
