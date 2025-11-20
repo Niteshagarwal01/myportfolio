@@ -1,6 +1,62 @@
 import { BtnListType, ProjectListType } from "./types";
 
 export const projectsData: ProjectListType[] = [
+      {
+        id: 16,
+        name: "TalentSphere - Full-Stack Interview Platform",
+        subHeading: "Collaborative coding interviews and pair programming platform",
+        description:
+          ` TalentSphere - Full-Stack Interview Platform \nThe ultimate platform for collaborative coding interviews and pair programming.\n\n Highlights\n VSCode-Powered Code Editor (Monaco)\n Clerk Authentication\n 1-on-1 Video Interview Rooms (Stream)\n 100+ Coding Problems\n Dashboard with Live Stats\n Mic & Camera Toggle, Screen Sharing & Recording\n Real-time Chat Messaging\n Secure Code Execution (Piston)\n Auto Feedback & Confetti\n Practice Problems Page\n Room Locking\n Background Jobs (Inngest)\n REST API (Node.js & Express)\n TanStack Query\n Modern UI (DaisyUI + TailwindCSS)\n Easy Deployment\n\nFrontend: React 19, Vite, TailwindCSS 4, DaisyUI, Monaco Editor, TanStack Query, Clerk, Stream Video SDK, Axios\nBackend: Node.js, Express, MongoDB, Mongoose, Clerk Express, Stream Node SDK, Inngest, Piston API\n`,
+        demoLink: "https://github.com/Niteshagarwal01/TalentSphere",
+        sourceLink: "https://github.com/Niteshagarwal01/TalentSphere",
+        techStack: [
+          "React",
+          "Vite",
+          "TailwindCSS",
+          "DaisyUI",
+          "Monaco Editor",
+          "TanStack Query",
+          "Clerk",
+          "Stream Video SDK",
+          "Axios",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Mongoose",
+          "Clerk Express",
+          "Stream Node SDK",
+          "Inngest",
+          "Piston API"
+        ],
+      },
+    {
+      id: 15,
+      name: "AIvory – Your Smile's Smartest Companion",
+      subHeading: "Modern dental appointment booking platform with AI-powered voice assistant and location-based dentist discovery",
+      description:
+        ` AIvory – Your Smile's Smartest Companion \nModern dental appointment booking platform with AI-powered voice assistant and location-based dentist discovery\n\n Features\n Landing & Authentication: Modern landing page, Clerk auth, Email verification, User profile\n Location-Based Dentist Discovery: Real dentist data from OpenStreetMap, map & list view, dentist details, free booking\n AI Voice Assistant (Premium): Voice-powered dental assistant using Vapi AI, real-time conversations, dental health guidance\n Subscription Plans: Free, AI Basic, AI Pro, managed via Clerk billing\n Admin Dashboard: Dedicated admin panel, manage doctors/appointments, view stats\n UI/UX: Tailwind CSS v4, Shadcn UI, custom animations, dark mode, responsive design\n Database & Backend: PostgreSQL with Neon, Prisma ORM, TanStack Query, server actions\n Tech Stack: Next.js 15.5, React 19, TypeScript 5.0, Tailwind CSS 4.0, Shadcn UI, Clerk, Prisma, Leaflet.js, Vapi AI, Resend, TanStack Query, ICS, Lucide React, Vercel/Sevalla compatible`,
+      demoLink: "https://a-ivory-your-smile-s-smartest-compa.vercel.app/",
+      sourceLink: "https://github.com/Niteshagarwal01/AIvory--Your-Smile-s-Smartest-Companion",
+      techStack: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Prisma",
+        "Clerk",
+        "PostgreSQL",
+        "Neon",
+        "Leaflet.js",
+        "Vapi AI",
+        "Resend",
+        "TanStack Query",
+        "ICS",
+        "Lucide React",
+        "Shadcn UI",
+        "React",
+        "Vercel",
+        "Sevalla"
+      ],
+    },
   {
     id: 1,
     name: "Tastify - Spotify of Recipes",
