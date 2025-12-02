@@ -146,7 +146,7 @@ Feel free to reach out through:
 
 ![Screenshot 2025-04-27 203231](https://github.com/user-attachments/assets/443e3421-48e5-4623-a5de-8fe3c6bead66)
 
-![Screenshot 2025-04-27 203302](https://github.com/user-attachments/assets/7eac1ffc-3674-4981-80f1-c399681fde60)
+
 
 
 
