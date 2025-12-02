@@ -148,11 +148,6 @@ Feel free to reach out through:
 
 ![Screenshot 2025-04-27 203302](https://github.com/user-attachments/assets/7eac1ffc-3674-4981-80f1-c399681fde60)
 
-![Screenshot 2025-04-27 203249](https://github.com/user-attachments/assets/0e8b115f-35f8-4bb1-b4d6-dfb7dd0b1be8)
-
-
-![Screenshot 2025-04-27 203321](https://github.com/user-attachments/assets/49cdc634-9470-4ef6-abfd-dc74ff4cfcc7)
-
 
 
 
