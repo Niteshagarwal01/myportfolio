@@ -362,7 +362,7 @@ export const BtnList: BtnListType[] = [
   },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "/Nitesh_Agarwal.pdf",
     icon: "resume",
     newTab: true,
   },
